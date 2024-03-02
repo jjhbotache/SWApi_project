@@ -1,31 +1,26 @@
-# task
+# Star Wars api Project
 
-> Hola Juan,
-Teniendo en cuenta que estaré fuera por una semana, te comparto la actividad que puedes empezar a desarrollar.
-Usando cómo tecnología principal React, crearemos un sitio que liste personajes, puedes escoger a preferencia la API que gustes, para ello vamos a contar con lo siguiente:
+## Description
 
-1. Página principal donde haya:
-    - Buscador, con uso de debounce.
-    - Este buscador también debe tener un predictive search ( recomendaciones según lo que escribes )
-2. Segunda página donde muestres los detalles del personaje. Usa react Routers.
-3. Debes listar los primeros personajes y tener un infinito Scroll.
-4. Crea un diseño atractivo y libre usando Styled Components
-5. Para las peticiones puedes usar fetch / axios
-6. Responsive Design.
-Puedes sumar ideas o propuestas a este pequeño proyecto, para la UI puedes buscar diseños e inspirarte en ellos, pero codea esto.
+This project, is a page where you can seach star wars characters and see their details.
 
-# Specific tasks
+![](/readmeSources/swapi.gif)
 
-| Done | Task |
-| ---- | ---- |
-|  ✅  | list first characters |
-|  ✅  | infinite scroll |
-|  ✅  | second page showing details |
-|  ✅  | searchbar |
-|  ✅  | searchbar debounce function |
-|  ✅  | searchbar predictive |
-|  ✅  | use styled components |
-|  ✅  | responsive design |
+## Pages
 
+1. **Home Page**: Here, you will be able to look for a character by writing it's name or just scrolling down (infinite)
 
-- using https://swapi.dev/api/
+2. **Character**: This page was made for see the details of any character
+
+## Technologies Used
+
+- JavaScript
+- React
+- styled-components
+- react-router-dom
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+
+![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
